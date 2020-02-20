@@ -14,6 +14,5 @@ public:
 
 protected:
 	void DrawTriangle(float4 traingle[3]);
-
 	float EdgeFunction(float2 a, float2 b, float2 c);
 };

@@ -17,8 +17,8 @@ public:
 
     std::vector<color> GetFrameBuffer() const; 
 protected:
-    unsigned short height;
-    unsigned short width;
+    unsigned int height;
+    unsigned int width;
 
     std::vector<color> frame_buffer;
 };
